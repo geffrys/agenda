@@ -1,0 +1,11 @@
+microservices
+    En esta carpeta iran las diferentes funciones que posiblemente se usen pero que no son indispensables, por ejemplo, compresion de imagenes, es un servicio que se ejecutara una vez pero luego simplemente se parara y liberara los recursos usados,
+    tiene la misma estructura de los componentes.
+bin/www.js
+    aqui ira como tal nuestra app, pues la app externa actuara como modulo que se importara en www.js, donde realizara las diferentes funciones.
+services
+    diferentes servicios de datos, como la conexion a base de datos. el envio de emails. el login etc
+    diferentes servicios que pueden usar los componentes. 
+apiServices o components
+    en esta carpeta iran los diferentes componentes de nuestra app, sin incluir sus vistas
+    cada componente contiene su controller, model, y routes
